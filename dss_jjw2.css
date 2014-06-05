@@ -1,0 +1,355 @@
+body
+{
+    width:1000px;
+    margin-left: -500px;
+    left: 50%;
+    position: relative;
+}
+div.music
+{
+    background-color: #385998;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    margin-left: 150px;
+    margin-top: -5px;
+    
+}
+div.data
+{
+    background-color: #639BF1;
+    display: block;
+    width: 660px;
+    height: 440px;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+div.cw
+{
+	font-family: "Lucida Sans";
+	width: 900px; 
+	margin-left: 150px;
+	background-color: #77BA9B;
+	height:40px;
+	
+}
+div.photo1
+{
+    background-color: #639BF1;
+           position: absolute;
+           display: block;
+           width: 360px;
+           height: 440px;
+           margin-left: 470px;
+           margin-top: 70px;
+}
+div.controlbg1
+{
+    background-color: #293E6A;
+           position: absolute;
+           display: block;
+           width: 350px;
+           height: 517px;
+           margin-left: -414px;
+           margin-top: 112px;
+    
+}
+div.controlbg2
+{
+        background-color: #77BA9B;
+           position: absolute;
+           display: block;
+           width: 350px;
+           height: 495px;
+           margin-left: -20px;
+           margin-top: -50px;
+}
+div.col1, div.col2, div.col3 {
+    display: inline-block;
+}
+div.col1
+{
+        width: 22%;
+}
+div.col2
+{
+    width: 22%;
+}
+div.col3
+{
+    width: 50%;
+}
+h2.cat
+{
+	color:#B6A754;
+	position: absolute;
+	top: 20px;
+	font-weight: 900;
+	margin-left: 150px;
+	font-size: 2.3em;
+    
+}
+p.dir
+{
+	color:#B6A754;
+	position: absolute;
+	top: 40px;
+	font-weight: 600;
+	margin-left: 350px;
+	font-size: 1.3em;
+    
+}
+p.title
+{
+	color:#639BF1;
+	font-size: 1.3em;
+	font-weight: 900;
+	margin-left: 30px;
+    
+	margin-top: 20px;
+	
+}
+p #jpublisher
+{
+	color:#293E6A;
+	font-size: 1.3em;
+	font-weight: 900;
+	float: right;
+	margin-right: 30px;
+        
+	
+}
+p.comment1
+{
+	color:#639BF1;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: center;
+	
+}
+p.comment2
+{
+	color:#639BF1;
+	font-size: 1.2em;
+	font-weight: 900;
+	text-align: center;
+	
+}
+p.comment3
+{
+	color:#639BF1;
+	font-size: 1.2em;
+	font-weight: 900;
+	text-align: center;
+	
+}
+p.pubinfo1
+{
+	color:#639BF1;
+	font-size: 1.1em;
+	font-weight: 900;
+	text-align: left;
+	margin-left: 100px;
+}
+p.pubinfo2
+{
+	color:#639BF1;
+	font-size: 1.1em;
+	font-weight: 900;
+	text-align: left;
+	margin-left: 100px;
+}
+p.pubinfo3
+{
+	color:#639BF1;
+	font-size: 1.1em;
+	font-weight: 900;
+	text-align: left;
+	margin-left: 100px;
+}
+p.pubinfo4
+{
+	color:#639BF1;
+	font-size: 1.1em;
+	font-weight: 900;
+	text-align: left;
+	margin-left: 100px;
+}
+
+a.btn:link {color:#000000; font-size:1.3em; font-weight:900;box-shadow:4px 4px 4px #000000;}
+a.btn:visited {color: #181834; font-size:1.3em; font-weight:900;box-shadow: 4px 4px 4px #000000;}
+a.btn:hover {color:#293E6A; font-size:1.3em; font-weight:900;box-shadow: 2px 2px 2px #000000, inset 4px 4px 6px #293E6A;}
+a.btn:active {color:#639BF1; font-size:1.3em; font-weight:900;box-shadow: 4px 4px 4px #000000;}
+a.btn
+{
+background: -webkit-linear-gradient(#B6A754, #293E6A);
+background: -o-linear-gradient(#B6A754, #293E6A);
+background: -moz-linear-gradient(#B6A754, #293E6A); 
+background: linear-gradient(#B6A754, #293E6A);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#B6A754', endColorstr='#293E6A');
+line-height: 200%;
+text-decoration: none;
+position: absolute;
+left: 25px;
+width: 300px;
+text-align: center;
+}
+#grad
+{
+background: -webkit-linear-gradient(white, #77BA9B); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(white, #77BA9B); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(white, #77BA9B); /* For Firefox 3.6 to 15 */
+background: linear-gradient(white, #77BA9B); /* Standard syntax */
+} 
+a:link
+{
+    COLOR: #293E6A;
+    TEXT-DECORATION: underline
+}
+a:visited
+{
+    COLOR: #293E6A;
+    TEXT-DECORATION: underline
+}
+a:hover
+{
+    COLOR: #999999;
+    BACKGROUND-COLOR: #000000;
+    TEXT-DECORATION: underline
+}
+a:active
+{
+    COLOR: #293E6A;
+    BACKGROUND-COLOR: #639BF1;
+    TEXT-DECORATION: underline
+}	
+
+  
+   #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:18px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-left: 0px;
+     
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0px 0px;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: left;
+      margin-left: 26px;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+      border: none;
+      width: auto;
+	
+    }
+    .slidesjs-pagination li a {
+      display: block;
+      width: 11px;
+      height: 2px;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+      color: rgba(0,0,0,0) !important;
+      background-color: transparent !important;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+    
+     #slides {
+      display: none
+    }
+a.sl:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a.sl:hover,
+a.sl:active {
+  outline: 0;
+}
+
+.container {
+     
+      top: 300px;
+      left: 466px;
+    }
+
