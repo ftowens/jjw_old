@@ -4,6 +4,7 @@ body
     margin-left: -500px;
     left: 50%;
     position: relative;
+    background-color: #77BA9B;
 }
 div.music
 {
@@ -176,9 +177,9 @@ p.pubinfo4
 	margin-left: 100px;
 }
 
-a.btn:link {color:#000000; font-size:1.3em; font-weight:900;box-shadow:4px 4px 4px #000000;}
+a.btn:link {color:#639BF1; font-size:1.3em; font-weight:900;box-shadow:4px 4px 4px #000000;}
 a.btn:visited {color: #181834; font-size:1.3em; font-weight:900;box-shadow: 4px 4px 4px #000000;}
-a.btn:hover {color:#293E6A; font-size:1.3em; font-weight:900;box-shadow: 2px 2px 2px #000000, inset 4px 4px 6px #293E6A;}
+a.btn:hover {color:#639BF1; font-size:1.3em; font-weight:900;box-shadow: 2px 2px 2px #000000, inset 4px 4px 6px #293E6A;}
 a.btn:active {color:#639BF1; font-size:1.3em; font-weight:900;box-shadow: 4px 4px 4px #000000;}
 a.btn
 {
