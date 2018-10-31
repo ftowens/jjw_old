@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Walk with Us, Holy God</title>
+<link href="dss_jjw2.css" type="text/css" rel="STYLESHEET">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+
+</head>
+<body>
+<div>
+    <img style="float: left; position: absolute; top: 0;" src="images/v_grd_n2.png" alt="vert gradient" width="124" height="920">
+    <img style="margin-left: 124px;" src="images/JJWBnr_n.png" alt="banner" width="700" height="80">
+ 
+    <div class=music style="height: 780px">
+               
+        <p class="title"> Walk with Us, Holy God <span id="jpublisher">Hinshaw Music, Inc.  HMC-2399</span></p>
+        <p style="margin-left: 20px;">comment(s):</p>    
+        <p class="comment1">co-written with Kelly Grooms - Text by Catherine Fischer</p>
+        <p class="comment2">Tune: EWING, one verse with AURELIA</p>
+        <p class="comment3">SATB with keyboard, optional brass and timpani </p>
+        <p style="margin-left: 20px;">publishers information:</p>
+        <p class="pubinfo1">Appropriate for Homecoming, Heritage Sunday, Church Celebrations or General Worship</p>
+        <p class="pubinfo2">&nbsp</p>
+        <p class="pubinfo3"> &nbsp </p>
+        <p class="pubinfo4">&nbsp</p>
+
+        <div style=" margin-left: 20px; margin-top: 20px;">
+            <p>play audio
+                <span style=" margin-left: 170px; margin-top: 10px;"></span>
+                
+                <audio controls>     
+                                
+                    <source src="audio/walk_with_us_holy_god.mp3" type="audio/mpeg">           
+                              
+                    Your browser does not support the audio element.
+                </audio>
+       
+                <br /> <br /> <br />
+                or play Youtube video<br /> if available
+              
+                <br /> <br /> <br /> 
+            </p>
+            <p style="margin-left: 60px;">
+               
+                or Return 
+                <img id="gotoPrevious" style=" margin-left: -50px; margin-top: 30px; cursor: pointer;" src="images/return.png" alt="return" width="64">
+            </p>
+        </div>
+
+        <div style=" margin-left: 200px; margin-top: -200px;"  >
+            <div class="video-responsive">
+                <div class="youtube" id="b9Zh_DjgC5U" style="width:500px; height: 315px;">
+                </div>
+                
+            </div>    
+        
+        </div>
+           
+    </div>
+
+    <div class=cw style="margin-top: 780px; font-size: 0.6em;">
+        <p>	© 2018 J. Jerome Williams, Valdese, NC
+	    <img style="float: right; margin-top: 5px;" src="images/dss.png" alt="DDS Logo" width="150">
+        </p>
+    </div>
+</div>   
+     
+<script>
+    $("#gotoPrevious").on("click", function (){
+        window.history.back();
+    })
+      
+    var videos = document.getElementsByClassName("youtube"); 
+
+    {
+  
+  var youtube = videos[0];
+  var img = document.createElement("img");
+  img.setAttribute("src", "http://i.ytimg.com/vi/" 
+                          + youtube.id + "/hqdefault.jpg" );
+
+  img.setAttribute("class", "thumb");
+  var circle = document.createElement("div");
+  circle.setAttribute("class","circle");  
+  
+  youtube.appendChild(img);
+  youtube.appendChild(circle);
+  
+  youtube.onclick = function() {
+
+    
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute("src",
+          "https://www.youtube.com/embed/" + this.id 
+        + "?autoplay=1&autohide=1&border=1&wmode=opaque&enablejsapi=1"); 
+    
+    iframe.style.width  = this.style.width;
+    iframe.style.height = this.style.height;
+       
+    this.parentNode.replaceChild(iframe, this);
+  }; 
+}
+</script>
+</body>
+</html>
